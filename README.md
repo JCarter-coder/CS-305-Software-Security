@@ -1,8 +1,10 @@
 # CS-305-Software-Security
 
 # Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+Artemis Financial is a consulting company that develops individualized financial plans for their customers such as savings, retirement, investments, and insurance. They want to use the most current and effective software security for their modernization of operations.
 
-# What did you d very well when you found your client's software security vulnerabilities? Why is it important to code securely? What value does software security add to a company's overall wellbeing?
+# What did you do very well when you found your client's software security vulnerabilities? Why is it important to code securely? What value does software security add to a company's overall wellbeing?
+After performing the static testing to identify security vulnerabilities I provided a mitigation plan that addressed the concerning dependencies. If the older versions of Spring Framework and Apache Tomcat weren't required, updated versions should be acquired and the static test repeated. It is important to code securely, especially when maintaining personal and financial information such as Artemis Financial. Compromise of security can negatively effect confidentiality, integrity, and availability of data. This will lead to costly financial repairs and long-term damage to reputation.
 
 # What part of the vulnerability assessment was challenging or helpful to you?
 
